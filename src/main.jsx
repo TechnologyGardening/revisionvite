@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import MonolithicComp from "./MonolithicComp";
+import MonToFunFinal from "./MonoToFunMerge";
 const root = ReactDOM.createRoot(document.getElementById("sample"));
 function render() {
   root.render(
     <main>
-      <MonolithicComp />
+      <MonToFunFinal />
     </main>
   );
 }
