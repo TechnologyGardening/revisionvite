@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HookComp6 from "./HookComp6";
+import MonolithicComp from "./MonolithicComp";
 const root = ReactDOM.createRoot(document.getElementById("sample"));
 function render() {
   root.render(
     <main>
-      <HookComp6 />
+      <MonolithicComp />
     </main>
   );
 }
